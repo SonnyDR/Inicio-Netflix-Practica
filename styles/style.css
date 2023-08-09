@@ -14,3 +14,64 @@
     position: fixed;
 }
 
+.centrar-div{
+    
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.lista-perfiles{
+    max-width: 80%;
+}
+
+.title-perfil{
+    font-size: 30px;
+    width: 100%;
+    font-weight: unset;
+    color: #fff;
+}
+
+.capsula-perfil{
+    margin: 2em 0;
+}
+
+.icon{
+    width: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+li.profile{
+    margin: 0 2vw 0 0;
+}
+
+.nombre-profile{
+    color: #fff;
+    display: block;
+    margin: 0.6em;
+    text-align: center;
+}
+
+.links-icon{
+    text-decoration: none;
+}
+
+.botton-perfil{
+    background-color: transparent;
+    margin: 2em 0 1.5em;
+    border: 2px solid #fff;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
