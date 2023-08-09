@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+
+
 .div-contenedor-todo {
     background: #141414;
     text-align: center;
