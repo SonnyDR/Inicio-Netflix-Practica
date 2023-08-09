@@ -15,7 +15,6 @@
 }
 
 .centrar-div{
-    
     align-items: center;
     bottom: 0;
     display: flex;
@@ -44,7 +43,7 @@
 }
 
 .icon{
-    width: 100px;
+    width: 200px;
 }
 
 li {
@@ -69,9 +68,25 @@ li.profile{
 .botton-perfil{
     background-color: transparent;
     margin: 2em 0 1.5em;
-    border: 2px solid #fff;
+    border: 2px solid grey;
     padding: 0.5em 1.5em;
-    color: #fff;
+    color: grey;
     display: block;
     text-decoration: none;
+}
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 550px){
+    .icon {
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .icon {
+        width: 100px;
+    }
+
 }
