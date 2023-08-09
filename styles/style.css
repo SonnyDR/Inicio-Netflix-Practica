@@ -32,7 +32,7 @@
 }
 
 .title-perfil{
-    font-size: 30px;
+    font-size: 50px;
     width: 100%;
     font-weight: unset;
     color: #fff;
@@ -44,6 +44,7 @@
 
 .icon{
     width: 200px;
+    border: 0.3em solid transparent;
 }
 
 li {
@@ -75,6 +76,20 @@ li.profile{
     text-decoration: none;
 }
 
+/*EFECTOS*/
+.icon:hover {
+    border: 0.3em solid #fff;
+}
+
+.botton-perfil:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+li.profile {
+    cursor: pointer;
+}
+
 
 /*MEDIA QUERY*/
 @media screen and (max-width: 550px){
@@ -82,11 +97,19 @@ li.profile{
         width: 150px;
     }
 
+    .title-perfil {
+        font-size: 40px;
+    }
+
 }
 
 @media screen and (max-width: 400px){
     .icon {
         width: 100px;
+    }
+
+    .title-perfil {
+        font-size: 30px;
     }
 
 }
